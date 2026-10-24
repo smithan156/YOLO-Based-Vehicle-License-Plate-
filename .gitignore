@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# YOLO datasets, weights, and generated runs
+data/
+datasets/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Local outputs and editor files
+outputs/*
+!outputs/.gitkeep
+.vscode/

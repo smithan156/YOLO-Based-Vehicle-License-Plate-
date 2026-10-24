@@ -1,0 +1,1 @@
+"""SmartPlate detection application components."""
